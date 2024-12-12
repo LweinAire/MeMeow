@@ -465,9 +465,15 @@ nav ul li a:hover{
     margin-top: 1px;
 }
 .containerForms input, .containerForms textarea {
-    background-color: #AB4459;
+    background-color: #4b438d;
     resize: none;
+    color: white;
 }
+
+.containerForms textarea::placeholder{
+    color: white;
+}
+
 .form-group { /*left side form spacing */
     margin-bottom: 10px; 
     display: flex;
@@ -490,6 +496,10 @@ nav ul li a:hover{
     border: none;
     width: 300px;
     border-radius: 4px; 
+}
+
+.leftform::placeholder { 
+    color: white;
 }
 .rightform {  
     padding: 10px; 
@@ -518,7 +528,7 @@ textarea::placeholder {
 
 
 .foot {
-    background-color: #1B1833;
+    background-color: #2B1B4C;
     height: 35vh;
     display: flex;
     align-items: center; 

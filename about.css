@@ -127,13 +127,18 @@ nav ul li a:hover{
     transition: ease-in-out .1s;
 }
 .foot {
-    background-color: #1B1833;
+    background-color: #2B1B4C;
     height: 35vh;
     display: flex;
     align-items: center; 
     gap: 20px;
     top: 12px;
     position: relative;
+}
+
+.ftrimg {
+    position: relative;
+    right: 2%;
 }
 
 .fhead {

@@ -93,48 +93,37 @@ nav ul li a:hover{
     bottom: 7px;
     padding: 5px 10px;
     border-radius: 20px;
-    background-color: rgb(232, 100, 100);
-}
-
-.snav:focus-within {
     background-color: white;
-    transition: ease-in-out .1s;
 }
 
-.srchbar {
-    margin-left: 5px;
-    border: none;
-    background-color: rgb(232, 100, 100);
-    padding: 5px;
-    outline: none;
+.snav a {
+    color: black    ;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 60px;
 }
 
-.srchbar::placeholder {
+.snav:hover{
+    background-color: #2B1B4C;
+    transition: ease-in-out .2s;
+}
+
+.snav:hover a {
     color: white;
+    transition: ease-in-out .2s;
 }
 
-.srchbar:focus {
-    background-color: white; 
-    border-color: rgb(255, 255, 255); 
-    transition: ease-in-out .1s;
-}
-
-.fa-search {
-    color: white;
-}
-
-.fa-search:focus-within {
-    color: rgb(232, 100, 100);
-    transition: ease-in-out .1s;
-}
 
 .foot {
-    background-color: #1B1833;
+    background-color: #2B1B4C;
     height: 35vh;
     display: flex;
     align-items: center; 
     gap: 20px;
 }
+
+
 
 .fhead {
     color: white;
@@ -150,7 +139,7 @@ nav ul li a:hover{
 .fdisc {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-top: 10px;
     font-size: 12px;
     display: flex;
@@ -295,7 +284,7 @@ nav ul li a:hover{
 
 .card {
     margin-top: 30px;
-    background-color: #b4adf6;
+    background-color: #4b438d;
     border-radius: 10px;
     width: 30%;
     position: relative;
@@ -319,10 +308,12 @@ nav ul li a:hover{
     padding-top: 10px;
     padding-left: 7px;
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .p1 {
-    max-width: 250px; 
+    max-width: 350px; 
     margin: 0 auto; 
     line-height: 1.4; 
     font-family: Arial, Helvetica, sans-serif;
@@ -361,7 +352,7 @@ nav ul li a:hover{
     font-size: 13px;
     position: relative;
     left: 50%;
-    bottom: 40px;
+    bottom: 15px;
 }
 
 
@@ -369,14 +360,14 @@ nav ul li a:hover{
     background-color: #F2EFE6;
     transition: ease-in-out .3s;
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(232, 100, 100);
+    border: 1px solid white;
 }
 
 .cardbtn2:hover {
     background-color: #F2EFE6;
     transition: ease-in-out .3s;
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(232, 100, 100);
+    border: 1px solid white;
 }
 
 .body3 {
@@ -394,11 +385,19 @@ nav ul li a:hover{
     border-bottom-right-radius: 10px;
     padding: 70px;
     top: 200px;
+    right: 60px;
     padding-left: 100px;
     font-weight: 900;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    transform: skew(-20deg);
+    box-shadow: 20px 20px 0px 0px #4b438d;
+}
+
+.int2h {
+    transform: skew(20deg);
+    margin-left: 50px;
 }
 
 .signlog {
@@ -410,7 +409,7 @@ nav ul li a:hover{
     height: 50%;
     bottom: 20%;
     border-radius: 10px;
-    border: 2px solid rgb(232, 100, 100);
+    border: 2px solid #4b438d;
 }
 
 .form {

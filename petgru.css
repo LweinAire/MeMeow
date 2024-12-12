@@ -110,7 +110,7 @@ nav ul li a:hover{
 
 
 .foot {
-    background-color: #1B1833;
+    background-color: #2B1B4C;
     height: 35vh;
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ nav ul li a:hover{
 .fdisc {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-top: 10px;
     font-size: 12px;
     display: flex;
